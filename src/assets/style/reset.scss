@@ -1,0 +1,95 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    user-select: none; // 不选中文字
+    text-size-adjust: 100%;
+    -webkit-touch-callout: none; // 禁止长按菜单，自己加-webkit-，webpack不会帮我们加
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); // 一定要自己加-webkit-，webpack不会帮我们加
+    font-family: '-apple-system', 'Helvetica Neue', 'Roboto', 'Segoe UI', 'sans-serif';  // 移动端字体，最符合设计要求
+}
+body {
+    font-size: 32px;
+}
+section,
+article,
+aside,
+canvas,
+div,
+dl,
+dt,
+dd,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+input,
+nav,
+p,
+pre,
+section,
+td,
+th,
+ul,
+ol,
+li,
+img {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+ol, ul, li {
+    list-style: none;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+button {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    // &:active {
+    //     box-shadow: inset 0 1px 4px rgba(0,0,0,.1);
+    //     opacity: 0.9;
+    // }
+}
+
+input {
+    border: none;
+    &:focus {
+        outline: none;
+    }
+}
+
+/* IOS，input出现阴影 */
+
+input,
+textarea {
+    -webkit-appearance: none !important;
+    /* 清楚ios阴影 */
+    -moz-appearance: none !important;
+    /* mobile firefox too! */
+    -webkit-tap-highlight-color: rgba(255,0,0, 0);
+}
+/* input为number时，在机子上显示上下箭头，去掉 */
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none !important;
+}

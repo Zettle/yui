@@ -1,0 +1,29 @@
+$white: #fff;
+// $stable: #f5f5f5;
+$meiBlue: #3da5fe; // 美蓝
+// $calm: #11c1f3;
+// $balanced: #44cc00;
+// $energized: #ffbd17;
+$assertive: #ea5a49; // 红色
+// $royal: #b5b5b5;
+// $dark: #484746;
+$unselect: #e5e7ea;
+
+$lighGray: #e6e6e6; // 浅灰色
+$c-d7d7d7: #d7d7d7;
+
+$whiteActive:rgba(0, 0, 0, 0.2);
+
+$appHeaderHeight: 80px; // header的高度，也是内容的padding-top
+$appFooterTabsHeight: 100px;  // app底部tabs的高度，也是内容的padding-bottom
+
+// 各种zIndex，这里定义的每个组件基本的zindex，组件内部可能在这个基础上会继续累加
+// 这里的zIndex以100累加，给组件内容和业务代码多留点空间
+$headerZindex: 100; // 顶部导航栏
+$modalZindex: 600; // 模拟弹窗modal
+$sideBarZindex: 700; // 侧边栏sideBar
+$popupZindex: 800; // 浮层类z-index，包含picker、actionSheet
+$datePickerZindex: 800; // 时间选择器datepicker
+$pickerZindex: 800; // 选择下拉框的z-index
+$dialogZindex: 900; // 对话框dialog
+$loadingZindex: 1000; // loading

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>未选（多选）</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="22.5142047%" x2="1.3930963%" y2="22.5142045%" id="linearGradient-1">
+            <stop stop-color="#3DA5FE" offset="0%"></stop>
+            <stop stop-color="#0BC2E6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="正稿" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="未选（多选）" fill="#E5E7EA">
+            <g id="勾选" transform="translate(1.000000, 1.000000)">
+                <circle id="Oval-234" cx="13" cy="13" r="13"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

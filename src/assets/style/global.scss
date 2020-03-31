@@ -1,0 +1,65 @@
+/************************/
+/****** 字体图标颜色 ******/
+/************************/
+// 选择框-未选中
+.iconfont-unselected {
+    color: $lighGray;
+}
+// 选择框-选中
+.iconfont-selected,
+.iconfont-checked {
+    color: $meiBlue
+} 
+
+// 过渡动画 - loading/toast组件有用到
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .3s ease-out;
+}
+.fade-enter, .fade-leave-to {
+    opacity: 0;
+}
+.fade-enter-to, .fade-leave {
+    opacity: 1;
+}
+
+/************************/
+/****** margin相关 ******/
+/************************/
+$i: 10;
+@while $i <= 100 {
+    @each $name, $item in (mt, top),
+                          (mr, right),
+                          (mb, bottom),
+                          (ml, left) {
+        .#{$name}-#{$i} {
+            margin-#{$item}: (1px * $i) !important;
+        }
+    }
+    $i: $i + 10;
+}
+
+/************************/
+/****** flex相关设置 *****/
+/************************/
+.flex {
+    display: flex;
+    .flex-1 {
+        flex: 1;
+    }
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.align-center {
+    align-items: center;
+}
+.justify-content {
+    justify-content: space-between;
+}
+
+.hidden {
+    display: none !important;
+}
